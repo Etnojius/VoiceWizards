@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6836468186443933130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6836468186443933109}
+  - component: {fileID: -2773256993098173520}
+  - component: {fileID: 1284462070334076173}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6836468186443933109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6836468186443933130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2773256993098173520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6836468186443933130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NetworkInstanceId: 0
+  PrefabHash: 1897319656204293034
+  PrefabHashGenerator: Player
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+--- !u!114 &1284462070334076173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6836468186443933130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255718ad71698b54f9ea8d4932372700, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wand1: {fileID: 4764923271020072806, guid: a8a4d0988b2f716459d8e15667e508cb, type: 3}
+  wand2: {fileID: 418625675662875039, guid: 2dfc6c00ea4ee13498050f158e809170, type: 3}
+  playerPrefab: {fileID: 5692266632516517506, guid: d2e0c229288bbb6469842cfc5e30598c, type: 3}
+  privatePlayer: {fileID: 0}
+  privatePlayerScript: {fileID: 0}
+  head: {fileID: 0}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  HandPrefab: {fileID: 6891459918132035057, guid: e04ac66ffe934834ab131b10b86a9c3e, type: 3}
+  BodyPrefab: {fileID: 1655449169596281739, guid: e8a8235f917bddc4f829f915fbc27eb3, type: 3}
+  headVis: {fileID: 0}
+  leftHandVis: {fileID: 0}
+  rightHandVis: {fileID: 0}
+  id:
+    m_InternalValue: 0
+  headPos:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  leftHandPos:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  rightHandPos:
+    m_InternalValue: {x: 0, y: 0, z: 0}
+  headRot:
+    m_InternalValue: {x: 0, y: 0, z: 0, w: 0}
+  leftHandRot:
+    m_InternalValue: {x: 0, y: 0, z: 0, w: 0}
+  rightHandRot:
+    m_InternalValue: {x: 0, y: 0, z: 0, w: 0}
+  tempHeadPos: {x: 0, y: 0, z: 0}
+  tempLeftHandPos: {x: 0, y: 0, z: 0}
+  tempRightHandPos: {x: 0, y: 0, z: 0}
+  headPosChange: {x: 0, y: 0, z: 0}
+  leftHandPosChange: {x: 0, y: 0, z: 0}
+  rightHandPosChange: {x: 0, y: 0, z: 0}
+  privateHeadPos: {x: 0, y: 0, z: 0}
+  privateLeftHandPos: {x: 0, y: 0, z: 0}
+  privateRightHandPos: {x: 0, y: 0, z: 0}
+  healthBar: {fileID: 0}
+  moveItemIndexRight: 0
+  moveItemIndexLeft: 0
+  item1: {fileID: 0}
+  item2: {fileID: 0}
+  chargeAnim: {fileID: 1484041716915463243, guid: 7929e90e78615904fac92563a6c5730b, type: 3}
+  delayedProjectiles: []
+  maxHP:
+    m_InternalValue: 100
+  hP:
+    m_InternalValue: 100
+  channelMana: 0
+  chargeEarth: 0
+  chargeWater: 0
+  doubleWater: 0
+  chargeFire: 0
+  doubleFire: 0
+  fireball: {fileID: 76202565781220917, guid: 480565f190cf2e241a7f89cabdaad10e, type: 3}
+  iceSpear: {fileID: 5566296780838221637, guid: 831b6c77bd68ded4eac6ca8eb1aad037, type: 3}
+  rockShard: {fileID: 7019357805676724606, guid: 407c8900dd88cfa4abe5be197e99d4f5, type: 3}
+  inferno: {fileID: 7535931864988644469, guid: 6ed4c6e6776ab0f4fa99896fd7e1e401, type: 3}
+  bunker: {fileID: 1570664075468444882, guid: 1dd7807b9bc08b442849936ad6286481, type: 3}
+  shield: {fileID: 625467833665497071, guid: 84b3dccf81053e14b86eb6431a1923cc, type: 3}
+  lastUpdate: 0
